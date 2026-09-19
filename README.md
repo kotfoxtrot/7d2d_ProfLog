@@ -1,6 +1,6 @@
 # ProfLog
 
-A measurement mod for the 7DTD 3.1.0 dedicated server. Installs Harmony wrappers on 42 call sites, and
+A measurement mod for the 7DTD 3.x dedicated server. Installs Harmony wrappers on 42 call sites, and
 every N seconds samples the counters, the world state and per-thread process CPU, writing it all to TSV.
 
 Build: `dotnet build -c Release` → `bin/ProfLog.dll`.
