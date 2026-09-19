@@ -3,7 +3,7 @@
     <Name value="ProfLog"/>
     <DisplayName value="ProfLog"/>
     <Version value="1.6"/>
-    <Description value="Diagnostic: samples per-call-site main-thread and worker-thread cost, thread CPU, world state and MemoryPools free-list retention into TSV files. Also censuses live UnityEngine.Object counts and their native memory per type, plus loaded AssetBundles, to locate native memory that a dedicated server never releases. Read-only: memory management moved to the PoolGuard mod. Console: proflog status|on|off|interval|summary|flush|where|patches|env|missing|cull|cullbench|lockprobe|pools|pooldetail|native|bundles|reset. Built for game version 2.6."/>
+    <Description value="Diagnostic, read-only: samples per-call-site main-thread and worker-thread cost, thread CPU, world state and MemoryPools free-list retention into TSV files. Also censuses live UnityEngine.Object counts and their native memory per type, names the individual assets behind one chosen type, and lists loaded AssetBundles, to locate native memory that a dedicated server never releases. Changes nothing in the game. Console: proflog status|on|off|interval|summary|flush|where|patches|env|missing|reset|cull|cullbench|lockprobe|pools|pooldetail|native|bundles. Built for game version 2.6."/>
     <Author value="kotfoxtrot"/>
-    <Website value=""/>
+    <Website value="https://github.com/kotfoxtrot/7d2d_ProfLog"/>
 </xml>
